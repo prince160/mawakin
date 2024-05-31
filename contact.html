@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAWAKIN - Contact</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery Slim, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Styles CSS  -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon  -->
+    <link rel="icon" type="image/png" href="images/fav.png">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <div class="container">
+            <div>
+                <div class="col-auto d-block d-lg-none fixed-menu"> <!-- Visible seulement sur mobile -->
+                    <p class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal">
+                        <span style="font-size: 16px; color: #333;">Menu</span>
+                    </p>
+                </div><br>
+                <div>
+                    <h1 style="text-align: center; margin-bottom: -5px;"><a href="index.html" class="artist-name">MAWAKIN</a></h1>
+                    <p style="text-align: center; margin-top: 0;">De l'obscurité naît la lumière</p>
+                </div> 
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block"> <!-- Visible seulement sur desktop -->
+            <div class="container">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nb.html">Noir & Blanc</a></li>
+                    <li class="nav-item"><a class="nav-link" href="color.html">Couleur</a></li>
+                    <li class="nav-item"><a class="nav-link" href="expo.html">Expositions</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal pour le menu mobile -->
+    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuModalLabel">Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a class="link-page" href="index.html">Accueil</a></li>
+                        <li class="list-group-item"><a class="link-page" href="about.html">À Propos</a></li>
+                        <li class="list-group-item"><a class="link-page" href="nb.html">Noir & Blanc</a></li>
+                        <li class="list-group-item"><a class="link-page" href="color.html">Couleur</a></li>
+                        <li class="list-group-item"><a class="link-page" href="expo.html">Expositions</a></li>
+                        <li class="list-group-item"><a class="link-page active" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Le menu desktop plus nav se termine ici -->
+
+    <!-- Contact Section -->
+    <section class="contact-section flex-grow-1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <a href="mailto:mawakin@outlook.fr" class="contact-link">
+                                <i class="fas fa-envelope fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <a href="https://www.instagram.com/mawakin_/" class="contact-link">
+                                <i class="fab fa-instagram fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <a href="tel:330641669005" class="contact-link">
+                                <i class="fas fa-phone-alt fa-3x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <hr class="footer-separator">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                        <p class="footer-copyright">&copy; 2024 MAWAKIN. Tous droits réservés, conçu par ♡ <a href="https://codix-ga.com/" style="text-decoration: none; color: #c40bba;">CodiX</a></p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <ul class="footer-social">
+                            <li><a href="https://www.instagram.com/mawakin_/"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
+    

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAWAKIN - À Propos</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery Slim, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/fav.png">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <div class="container">
+            <div>
+                <div class="col-auto d-block d-lg-none fixed-menu"> <!-- Visible seulement sur mobile -->
+                    <p class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal">
+                        <span style="font-size: 16px; color: #333;">Menu</span>
+                    </p>
+                </div><br>
+                <div>
+                    <h1 style="text-align: center; margin-bottom: -5px;"><a href="index.html" class="artist-name">MAWAKIN</a></h1>
+                    <p style="text-align: center; margin-top: 0;">De l'obscurité naît la lumière</p>
+                </div> 
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block"> <!-- Visible seulement sur desktop -->
+            <div class="container">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">À Propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nb.html">Noir & Blanc</a></li>
+                    <li class="nav-item"><a class="nav-link" href="color.html">Couleur</a></li>
+                    <li class="nav-item"><a class="nav-link" href="expo.html">Expositions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal pour le menu mobile -->
+    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuModalLabel">Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a class="link-page" href="index.html">Accueil</a></li>
+                        <li class="list-group-item"><a class="link-page active" href="about.html">À Propos</a></li>
+                        <li class="list-group-item"><a class="link-page" href="nb.html">Noir & Blanc</a></li>
+                        <li class="list-group-item"><a class="link-page" href="color.html">Couleur</a></li>
+                        <li class="list-group-item"><a class="link-page" href="expo.html">Expositions</a></li>
+                        <li class="list-group-item"><a class="link-page" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Le menu desktop plus nav se termine ici -->
+
+    <section class="biography-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/bio.jpeg" class="img-fluid" alt="Photo de l'artiste">
+                </div>
+                <div class="col-md-8">
+                    <h2>TECHNIQUE & INSPIRATION</h2>
+                    <p style="text-align: justify;">Mon outil de prédilection est l’encre que j’aime pour sa fluidité dans la façon de m’exprimer. J’aime 
+                        son rendu brillant. Le crayon quant à lui, lorsque je l’utilise, vient en appui pour apporter un sentiment 
+                        de texture et des précisions sur les dégradés de couleurs. Je trouve un équilibre dans l’art des formes 
+                        en mettant un accent sur l’intensité des teintes afin de donner de l’impact. Je trouve au travers de leur 
+                        vivacité et de leur complémentarité, des valeurs et des émotions.</p>
+                    <p style="text-align: justify;">Ma démarche réside dans la capacité à créer du lien entre ce qui est clair et ce qui est sombre, entre 
+                        le bon et le mauvais, de façon à montrer que l’on peut trouver l’équilibre. Qu’il n’y ait pas de bon ni 
+                        de mauvais mais que tout dépend de l’usage qu’on en fait. J’ai eu des expériences qui ont contribué 
+                        à mettre en œuvre cette démarche au fil du temps, laissant place à une dimension de rêverie chez mon 
+                        public et chez l’artiste que je suis.</p>
+                    <p style="text-align: justify;">Des questions existentielles ont émergé mettant en avant, dans mes réalisations, l’idée d’une potentielle 
+                            existence de la vie après la vie, l’existence d’autres mondes, d’un monde plus grand. Ces questionnements m’ont permis de prendre de la hauteur sur les épreuves vécues et j’ai compris que l’on avait 
+                            toujours le choix d’y voir le bon ou le mauvais côté. A ce moment-là une chose est née en moi, la foi de 
+                            croire que « de l’obscurité naît la lumière ».
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <hr class="footer-separator">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="footer-copyright">&copy; 2024 MAWAKIN. Tous droits réservés, conçu par ♡ <a href="https://codix-ga.com/" style="text-decoration: none; color: #c40bba;">CodiX</a></p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <ul class="footer-social">
+                        <li><a href="https://www.instagram.com/mawakin_/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

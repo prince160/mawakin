@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAWAKIN - Couleur</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery Slim, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Styles CSS  -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon  -->
+    <link rel="icon" type="image/png" href="images/fav.png">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <div class="container">
+            <div>
+                <div class="col-auto d-block d-lg-none fixed-menu"> <!-- Visible seulement sur mobile -->
+                    <p class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal">
+                        <span style="font-size: 16px; color: #333;">Menu</span>
+                    </p>
+                </div><br>
+                <div>
+                    <h1 style="text-align: center; margin-bottom: -5px;"><a href="index.html" class="artist-name">MAWAKIN</a></h1>
+                    <p style="text-align: center; margin-top: 0;">De l'obscurité naît la lumière</p>
+                </div> 
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block"> <!-- Visible seulement sur desktop -->
+            <div class="container">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nb.html">Noir & Blanc</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="color.html">Couleur</a></li>
+                    <li class="nav-item"><a class="nav-link" href="expo.html">Expositions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal pour le menu mobile -->
+    <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuModalLabel">Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a class="link-page" href="index.html">Accueil</a></li>
+                        <li class="list-group-item"><a class="link-page" href="about.html">À Propos</a></li>
+                        <li class="list-group-item"><a class="link-page" href="nb.html">Noir & Blanc</a></li>
+                        <li class="list-group-item"><a class="link-page active" href="color.html">Couleur</a></li>
+                        <li class="list-group-item"><a class="link-page" href="expo.html">Expositions</a></li>
+                        <li class="list-group-item"><a class="link-page" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Première oeuvre -->
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=1">
+                        <img src="images/color/1.jpg" alt="Oeuvre 1">
+                        <div class="overlayy">
+                            <h3>Les Quatre Saisons</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Deuxième oeuvre -->
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=2">
+                        <img src="images/color/2.jpg" alt="Oeuvre 2">
+                        <div class="overlayy">
+                            <h3>L'authentique</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Troisième oeuvre -->
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=3">
+                        <img src="images/color/3.jpg" alt="Oeuvre 3">
+                        <div class="overlayy">
+                            <h3>Le féminin</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Ajouter d'autres oeuvres ici -->
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=4">
+                        <img src="images/color/4.jpg" alt="Oeuvre 4">
+                        <div class="overlayy">
+                            <h3>L'Abandonce</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=5">
+                        <img src="images/color/5.jpg" alt="Oeuvre 5">
+                        <div class="overlayy">
+                            <h3>La Passion</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=6">
+                        <img src="images/color/6.jpg" alt="Oeuvre 6">
+                        <div class="overlayy">
+                            <h3>La Connexion</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=7">
+                        <img src="images/color/7.jpg" alt="Oeuvre 7">
+                        <div class="overlayy">
+                            <h3>La créativité</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=8">
+                        <img src="images/color/8.jpg" alt="Oeuvre 8">
+                        <div class="overlayy">
+                            <h3>La sensualité</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=9">
+                        <img src="images/color/9.jpg" alt="Oeuvre 9">
+                        <div class="overlayy">
+                            <h3>L'Univers</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=10">
+                        <img src="images/color/10.jpg" alt="Oeuvre 10">
+                        <div class="overlayy">
+                            <h3>Le Soleil</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=11">
+                        <img src="images/color/11.jpg" alt="Oeuvre 11">
+                        <div class="overlayy">
+                            <h3>La Foudre</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=12">
+                        <img src="images/color/12.jpg" alt="Oeuvre 12">
+                        <div class="overlayy">
+                            <h3>La Renaissance</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=13">
+                        <img src="images/color/13.jpg" alt="Oeuvre 13">
+                        <div class="overlayy">
+                            <h3>Le Hasard</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=14">
+                        <img src="images/color/14.jpg" alt="Oeuvre 14">
+                        <div class="overlayy">
+                            <h3>La Créativité II</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=17">
+                        <img src="images/color/17.jpg" alt="Oeuvre 17">
+                        <div class="overlayy">
+                            <h3>La Musique</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=18">
+                        <img src="images/color/18.jpg" alt="Oeuvre 18">
+                        <div class="overlayy">
+                            <h3>L'Abstraction</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=19">
+                        <img src="images/color/19.jpg" alt="Oeuvre 19">
+                        <div class="overlayy">
+                            <h3>L'Allogène</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=20">
+                        <img src="images/color/20.jpg" alt="Oeuvre 20">
+                        <div class="overlayy">
+                            <h3>La Magie</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <a href="color-carousel.html?img=21">
+                        <img src="images/color/21.jpg" alt="Oeuvre 21">
+                        <div class="overlayy">
+                            <h3>Les Rêves</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid flex-grow-1">
+                <div class="row">
+                    <div class="col-12">
+                        <hr class="footer-separator">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                        <p class="footer-copyright">&copy; 2024 MAWAKIN. Tous droits réservés.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <ul class="footer-social">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
